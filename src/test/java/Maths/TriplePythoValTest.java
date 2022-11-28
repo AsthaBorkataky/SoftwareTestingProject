@@ -7,7 +7,7 @@ import org.junit.jupiter.api.AfterEach;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
-public class PythagoreanTripleTest {
+public class TriplePythoValTest {
 
     TriplePythoVal a = new TriplePythoVal();
 
@@ -19,7 +19,7 @@ public class PythagoreanTripleTest {
     }
 
     @Test
-    public void LeapYearTest() {
+    public void TriplePythoTest() {
 
         assertEquals(true, a.triplePythoCheck(10, 24, 26), "Pythagorean Triplet test successful");
         assertNotEquals(true, a.triplePythoCheck(10, 24, 27));

@@ -25,12 +25,12 @@ public class InsertionSortTest {
         int arr2[] = new int[]{4, 6, 8, 9};
         int arr3[] = new int[]{1};
 
-        assertArrayEquals(arr2, i.Sort(arr1));
+        assertArrayEquals(arr2, i.ISort(arr1));
 
-        assertArrayEquals(arr3, i.Sort(arr3));
+        assertArrayEquals(arr3, i.ISort(arr3));
 
-        assertArrayEquals(arr2, i.Sort(arr2));
+        assertArrayEquals(arr2, i.ISort(arr2));
 
-        assertNull(i.Sort(new int[]{}));
+        assertNull(i.ISort(new int[]{}));
     }
 }

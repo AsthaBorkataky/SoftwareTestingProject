@@ -19,7 +19,7 @@ public class LinearSearchTest {
     }
 
     @Test
-    public void binarySearchTest() {
+    public void linearSearchTest() {
         int arr[] = new int[]{-5,13,-4,21,16};
 
         assertEquals(2, l.linearS(arr, -4), "Linear Search Test successful");

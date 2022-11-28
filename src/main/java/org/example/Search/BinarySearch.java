@@ -2,20 +2,20 @@ package org.example.Search;
 
 public class BinarySearch
 {
-    public int binaryS (int arr[], int num)
+    public int binaryS (int val[], int num)
     {
         int left = 0;
-        int right = arr.length - 1;
+        int right = val.length - 1;
         int res=-1;
         while (left <= right)
         {
             int mid = left + (right - left) / 2;
-            if (arr[mid] == num)
+            if (val[mid] == num)
             {
                 res =  mid;
                 break;
             }
-            if (arr[mid] < num)
+            if (val[mid] < num)
             {
                 left = mid + 1;
             }

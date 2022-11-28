@@ -19,7 +19,7 @@ public class HCFTest {
     }
 
     @Test
-    public void GCDTest(){
+    public void HCFTest(){
         assertEquals(-1,a.hcf(-1,2),"HCF test successful");
         assertNotEquals(1,a.hcf(-1,1));
 

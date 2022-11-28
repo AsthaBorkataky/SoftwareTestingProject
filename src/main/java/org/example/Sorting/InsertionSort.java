@@ -1,7 +1,7 @@
 package org.example.Sorting;
 
 public class InsertionSort {
-    public int[] Sort(int [] val)
+    public int[] ISort(int [] val)
     {
         int len = val.length;
         if(len==0)

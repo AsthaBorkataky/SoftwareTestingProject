@@ -2,13 +2,13 @@ package org.example.Search;
 
 public class LinearSearch
 {
-    public int linearS(int arr[], int num)
+    public int linearS(int val[], int num)
     {
 
         int res = -1;
-        for (int pos = 0; pos < arr.length; pos++)
+        for (int pos = 0; pos < val.length; pos++)
         {
-            if (arr[pos] == num)
+            if (val[pos] == num)
             {
                 res = pos;
                 break;

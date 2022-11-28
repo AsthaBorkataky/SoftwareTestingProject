@@ -26,7 +26,7 @@ public class BubbleSortTest {
         int arr3[] = new int[]{7, 6, 5, 9};
         int arr4[] = new int[]{5, 6, 7, 9};
 
-        assertArrayEquals(arr2, b.Sort(arr1),"Test Success");
-        assertArrayEquals(arr4, b.Sort(arr3),"Test Success");
+        assertArrayEquals(arr2, b.BSort(arr1),"Test Success");
+        assertArrayEquals(arr4, b.BSort(arr3),"Test Success");
     }
 }

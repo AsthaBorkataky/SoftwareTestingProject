@@ -2,7 +2,7 @@ package org.example.Sorting;
 
 public class BubbleSort {
 
-    public int[] Sort(int val[])
+    public int[] BSort(int val[])
     {
         int len = val.length;
         for (int i = 0; i < len - 1; i++)

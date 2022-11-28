@@ -18,14 +18,14 @@ public class NthFiboTest {
     }
 
     @Test
-    public void LeapYearTest() {
-        assertEquals(0, a.fib(0), "Leap Year test successful");
+    public void FiboTest() {
+        assertEquals(0, a.fib(0), "Fibo test successful");
         assertNotEquals(1, a.fib(0));
 
-        assertEquals(1, a.fib(1), "Leap Year test successful");
+        assertEquals(1, a.fib(1), "Fibo test successful");
         assertNotEquals(0, a.fib(1));
 
-        assertEquals(2, a.fib(3), "Leap Year test successful");
+        assertEquals(2, a.fib(3), "Fibo test successful");
         assertNotEquals(1, a.fib(3));
     }
 }

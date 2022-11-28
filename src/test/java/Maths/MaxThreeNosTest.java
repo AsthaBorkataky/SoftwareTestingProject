@@ -19,7 +19,7 @@ public class MaxThreeNosTest {
     }
 
     @Test
-    public void LeapYearTest() {
+    public void MaxThreeNosTest() {
         assertEquals(30, a.maxNum(10,20,30), "MaxNum test successful");
         assertNotEquals(10, a.maxNum(10,20,30));
 
